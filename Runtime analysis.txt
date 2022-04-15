@@ -1,0 +1,31 @@
+﻿Array
+	size
+	doublerInsert
+	doublerAppend
+	tinyArray
+	10
+	33.837 μs
+	 87.219 μs
+	smallArray
+	100
+	44.382 μs
+	109.455 μs
+	mediumArray
+	1000
+	138.783 μs
+	138.783 μs
+	largeArray
+	10000
+	5.538956 ms
+	540.687 μs
+	extraLargeArray
+	100000
+	818.193697 ms
+	3.313467 ms
+	
+
+
+
+
+
+The doublerInsert function takes less time to execute on a tiny and small array although it takes much more time when you execute on a large and extra large array. But the doublerAppend function takes more time to execute on a tiny and small array although it takes less time when you execute on a large and extra large array
